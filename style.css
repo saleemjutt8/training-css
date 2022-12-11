@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+/* variables */
+:root {
+    /* fonts */
+    --headingfont: roboto;
+    --textfont: inter;
+    /* colors */
+    --textcolor: rgb(255, 255, 255);
+    --bgcolor: rgb(10, 218, 185);
+
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    position: absolute;
+    left: 500px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+nav ul {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+a {
+    display: flex;
+    padding: 25px;
+    font-size: 22px;
+    color: var(--textcolor);
+    letter-spacing: 1.8px;
+    font-family: var(--headingfont);
+
+}
+
+.main__h1 {
+    font-family: var(--headingfont);
+    position: absolute;
+    color: var(--textcolor);
+    top: 120px;
+    left: 200px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 3px;
+
+}
+
+p {
+    color: var(--textcolor);
+    font-family: var(--textfont);
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    line-height: 20px;
+    font-size: 18px;
+    letter-spacing: 1.9px;
+}
+
+button {
+    position: absolute;
+    left: 200px;
+    top: 420px;
+    height: 30px;
+    width: 150px;
+    border-radius: 13px;
+    background-color: var(--bgcolor);
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 940px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+    text-align: right;
+
+}
+
+.section {
+    position: absolute;
+    left: 1050px;
+    top: 35px;
+
+}
+
+.label {
+    width: 600px;
+}
+
+.input {
+    text-align: right;
+    width: 200px;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid aqua;
+    height: 25px;
+    color: aqua;
+
+}
+
+img {
+    max-width: 100%;
+    min-height: 100%;
+}

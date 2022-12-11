@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+:root {
+    /* variables */
+
+    /* fonts */
+    --headingfont: roboto;
+    --textfont: inter;
+    /* colors */
+    --textcolor: rgb(255, 255, 255);
+    --bgcolor: rgb(10, 218, 185);
+
+}
+body{
+    box-sizing: border-box;
+     margin: 0 ; 
+    padding: 0;
+}
+
+div{
+    box-sizing:border-box;
+    margin-left: 80px;
+
+}
+.bg{
+     max-width:1340px;
+     max-height:600px;
+    
+
+    }
+    .logo{
+        display: flex;
+        position:absolute;
+        left: 170px;
+        top: 20px;  
+    }
+    .ul{
+        list-style-type: none;
+        display: flex;
+        position: absolute;
+        justify-content:space-evenly;
+        left: 600px;
+        top: 25px;
+
+    }
+    a{
+        justify-content: space-around;
+        color:rgb(57, 22, 136);
+        font-family: var(--textfont);
+        padding: 16px;
+        font-weight:900;
+    }
+    p{
+        font-size: 18px;;
+        position:absolute ;
+        left: 525px;
+        top: 340px;
+        font-family: var(--headingfont);
+        letter-spacing: 1px;
+        color: blue;
+        line-height: 25px; ;
+    }
+    button{
+        position: absolute;
+        left:600px ;
+        top: 430px;
+        width: 150px;
+        border-radius: 10px;
+        color:rgb(99,53,109) ;
+        background:rgb(215, 138, 34);
+        height: 27px;
+        font-size:15px;
+        font-weight: 600;
+        border: 2px solid black;  
+      }
